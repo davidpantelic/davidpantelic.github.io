@@ -1,0 +1,787 @@
+/* WEBDAK WEBSITE SOLUTIONS */
+
+/* HEADER *******************************************/
+
+
+
+body {
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.nav {
+	background-color: #fff;
+	height: 80px;
+	width: 100%;
+	display: flex;
+}
+.nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align: center;
+}
+
+.nav ul li {
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.nav ul li a {
+	padding: 10px 20px;
+	height: 20px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+
+.nav ul li a:link,
+.nav ul li a:visited {
+	color:#c2c2c2;
+	text-decoration: none;
+}
+.nav ul li a:hover {
+	color: #e2494a;
+	text-decoration: none;
+}
+.nav ul li a:active {
+	color: indianred;
+	text-decoration: none;
+}
+
+.logo {
+	padding-left: 60px;
+	padding-top: 10px;
+	float: left;
+}
+
+.nav3 {
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.nav3 > a {
+	padding-right: 10px;
+}
+
+.meni {
+  flex: 1;
+}
+
+
+/* MAIN *******************************************/
+
+.main {
+	background-image: url("../img/home/home-img.png");
+	height: 998px;
+	width: 100%;
+}
+
+.home-tekst {
+	margin:0 0 0 250px;
+	padding: 20px 0 0 0;
+	height: auto;
+	width: 400px;
+}
+
+.home-tekst h1 {
+	color: #413d2c;
+	font-size: 54px;
+}
+
+.home-tekst p {
+	color: #3c424b;
+	font-size: 26px;
+}
+
+.home-tekst a {
+	position: absolute;
+	right: 150px;
+}
+
+.call-to-action {
+	background-color: #2e657e;
+	height: 80px;
+	width: 100%;
+}
+
+.div-call {
+	padding-bottom: 25px;
+	padding-top: 20px;
+	width: 70%;
+	margin:0 auto;
+}
+
+.div-call p {
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	float: left;
+	color: #b5c4ca;
+}
+
+.div-kontakt-call {
+	display: inline;
+	float: right;
+}
+
+.div-kontakt-call > a {
+	padding-left: 40px;
+}
+
+.main2 {
+	background: rgba(0, 0, 0, 0.9);
+	height: 1300px;
+	width: 100%;
+	margin-top: 0;
+	padding: 0;
+	background-image: url("../img/ico/Logo - Veliki.png");
+}
+
+.main2 p {
+	font-size: 30px;
+	color: #b5c4ca;
+	margin: 0px auto 100px auto;
+	padding-top: 100px;
+	width: 1000px;
+	text-align: center;
+}
+
+.main2-slike {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+}
+
+.main2-slika1 {
+	margin-left: auto;
+	margin-right: 5px;
+}
+
+.main2-slika2 {
+	margin-right: 5px;
+}
+
+.main2-slika3 {
+	margin-right: auto;
+}
+
+.projekat-pozadina {
+	background-color: #000;
+	opacity: 80%;
+	height: 100px;
+	width: 527px;
+	position: relative;
+	bottom: 106.5px;
+	
+}
+
+.projekat-pozadina p {
+	color: #caa568;
+	position: relative;
+	bottom: 80px;
+	right: 350px;
+}
+
+/* FOOTER *******************************************/
+
+footer {
+	background-color: #fff;
+	height: 80px;
+	width: 100%;
+	display: flex;
+}
+
+.footer-levo {
+	float: left;
+	padding: 10px 0 10px 20px;
+}
+
+.footer-levo p {
+	color: #c2c2c2;
+}
+
+.footer-centar {
+	flex: 1;
+}
+
+.footer-centar ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align: center;
+}
+
+.footer-centar ul li {
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.footer-centar ul li a {
+	padding: 10px;
+	height: 20px;
+	display: block;
+	letter-spacing: 1px;
+}
+
+
+.footer-centar ul li a:link,
+.footer-centar ul li a:visited {
+	color:#9e9e9e;
+	text-decoration: none;
+}
+.footer-centar ul li a:hover {
+	color: #e2494a;
+	text-decoration: none;
+}
+.footer-centar ul li a:active {
+	color: indianred;
+	text-decoration: none;
+}
+
+.footer-desno {
+	float: right;
+	padding: 10px 10px 10px 0;
+}
+
+
+/* CONTACT *******************************************/
+
+.kontakt-main {
+	background-image: url("../img/kontakt/kontakt-img.png");
+	height: 1000px;
+	width: 100%;
+}
+
+.kontakt-text h1 {
+	color: #413d2c;
+	font-size: 54px;
+}
+
+.kontakt-text p {
+	color: #3c424b;
+	font-size: 22px;
+}
+
+.kontakt-okvir {
+	width: 900px;
+	height: 700px;
+	position: absolute;
+	top: 190px;
+	left: 110px;
+}
+
+.form {
+	width: 100%;
+}
+
+
+.form #sendmessage {
+  color: #555;
+  border: 1px solid #555;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form #sendmessage.show,
+.form #errormessage.show,
+.form .show {
+  display: block; /**********************/
+}
+
+.form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.form input,
+.form textarea {
+  height: 50px;
+  font-size: 23px;
+  background-color: #272525;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.form textarea {
+	width: 100%;
+	height: 250px;
+	border: none;
+}
+
+.form input {
+	border: none;
+	padding-right: 2px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b3925c;
+  opacity: 1; /* Firefox */
+  padding-left: 30px;
+}
+
+.form textarea::placeholder {
+	padding-top: 15px;
+}
+
+
+.form button[type="submit"] {
+  padding: 10px 0px;
+  color: #413d2c;
+  transition: 0.4s;
+  cursor: pointer;
+  float: right;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+.form button[type="submit"]:hover {
+  color: #000;
+}
+
+
+.form input {
+	width: 100%;
+}
+
+.form-1red {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 0px;
+}
+
+.form-ime {
+	float: left;
+	width: 45%;
+	margin-bottom: 20px;
+}
+
+.form-prezime {
+	float: right;
+	width: 45%;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.form-email {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.form-naslov {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.form-poruka {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 6px;
+}
+
+.info-kontakt-pozadina {
+	background-color: #2e657e;
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 400px;
+	right: 0px;
+}
+
+.info-kontakt {
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.info-kontakt a {
+	display: block;
+	font-size: 20px;
+    line-height: 25px;
+}
+
+.info-kontakt h4 {
+	color: #b5c4ca;
+	margin-bottom: 10px;;
+}
+
+.info-kontakt p {
+	color: #8ab7cb;
+	margin-top: 0;
+}
+
+.info-kontakt a:link,
+.info-kontakt a:visited {
+	text-decoration: none;
+}
+
+
+/* LOGIN *******************************************/
+
+
+.login-cover {
+	background-image: url("../img/login/login-img.png");
+	height: 1000px;
+}
+
+.login-box {
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	top: 300px;
+	right: 100px;
+	text-align: center;
+	padding: 0;
+}
+
+.login-2button button {
+	border: none;
+	background-color: #272525;
+	width: 350px;
+	height: 50px;
+	margin: 10px;
+	color: #b3925c;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.login-box h1 {font-size:50px;}
+.login-box h4 {font-size:25px;}
+.login-box h5 {font-size:20px;}
+
+
+
+/* O NAMA *******************************************/
+
+
+.video {
+	background-image: url("../img/o-nama/video.png");
+	height: 1020px;
+}
+
+.play {
+	 text-align: center;
+ 	 display :block;
+	 padding-top: 480px;
+}
+
+.buttons {
+	float: right;
+	width: 1300px;
+	padding-top: 300px;
+	padding-right: 100px;
+}
+
+.S {
+	float: left;
+}
+
+.A,
+.B {
+	float: right;
+	margin-right: 20px;
+}
+
+
+
+.opis-box {
+	background-image: url("../img/o-nama/background-blue.png");
+	height: 1000px;
+	padding: 0px;
+}
+
+.o-nama {
+	width: 70%;
+	height: 290px;
+	padding: 50px 50px 150px 50px;
+}
+
+.o-nama img {
+	float: left;
+	margin: 50px 100px 50px 150px;
+}
+
+.o-nama h2,
+.o-nama p {
+	word-wrap: break-word;
+	padding-top: 20px;
+	color: #3c424b;
+}
+
+.nas-tim {
+	width: 80%;
+	height: 500px;
+	padding: 0px;
+	margin: 50px 100px 0px 0px;
+}
+
+.nas-tim img {
+	float: left;
+	height: 500px;
+	width: auto;
+	margin-right: 60px;
+}
+
+.nas-tim h2,
+.nas-tim p {
+	word-wrap: break-word;
+	color: #3c424b;
+}
+
+.reference {
+	background-image: url("../img/o-nama/ref-background.png");
+	height: 1000px;
+}
+
+.partneri {
+	padding-top: 150px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.partner1,
+.partner2,
+.partner3 {
+	width: 1000px;
+	padding-bottom: 50px;
+}
+
+.partneri img {
+	float: left;
+	padding-right: 50px;
+}
+
+.partneri p {
+	word-wrap: break-word;
+	color: #ababab;
+}
+
+.partneri h1 {
+	padding-left: 225px;
+	color: #ababab;
+}
+
+.partner1 a,
+.partner2 a,
+.partner3 a {
+	text-decoration: none;
+	color: #e2494a;
+}
+
+/* PROJEKTI *******************************************/
+
+.projekti1 {
+	background-image: url("../img/projekti/Cvijiceva 1.png");
+	height: 1232px;
+	position: relative;
+}
+
+.lista-projekti1 {
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+
+.infograf-projekti1 {
+	position: absolute;
+	bottom: 90px;
+	left: 70px;
+}
+
+.projekti1-text {
+	background-color: rgb(0,0,0, 83%);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 800px;
+	height: 500px;
+}
+
+.projekti1-text h1{
+	color: #caa568;
+	margin: 30px 0 0 70px;
+	font-size: 50px;
+}
+
+.projekti1-text h4,
+.projekti1-text p {
+	color: #938773;
+	word-wrap: break-word;
+	margin: 20px 0 0 50px;
+	font-size: 23px;
+}
+
+.buttons-projekti1 {
+	position: absolute;
+	bottom: 60px;
+	right: 130px;
+}
+
+.buttons-projekti1 a {
+	padding-right: 40px;
+}
+
+.projekti-ico {
+	background-image: url("../img/projekti/projekti-ico.png");
+	height: 179px;
+}
+
+.projekti2 {
+	background-image: url("../img/projekti/POZADINA-projekti2.png");
+	height: 1030px;
+	position: relative;
+}
+
+.projekti2-text {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 700px;
+	height: 500px;
+	font-size: 150%;
+}
+
+.projekti2-text h1,
+.projekti2-text h4,
+.projekti2-text h3 {
+	word-wrap: break-word;
+}
+
+.rez-stan {
+	position: absolute;
+	top: 590px;
+	left: 600px;
+}
+
+.projekti2-slika {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 715px;
+	width: 1000px;
+}
+
+.projekti2-stanovi {
+	position: absolute;
+	bottom: 0;
+	padding-left: 70px;
+}
+
+.projekti2-stanovi a {
+	padding: 20px;
+}
+
+.projekti3 {
+	background-image: url("../img/projekti/POZADINA-projekti3.png");
+	height: 700px;
+}
+
+.projekti3-box {
+	position: relative;
+	top: 50px;
+	left: 113px;
+	right: 113px;
+	width: 1693px;
+	height: auto;
+}
+
+.projekti3 a {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.projekti3-stanovi-slika {
+	position: absolute;
+	top: 100px;
+}
+
+.projekti3-lista-stanova {
+	display: none;
+}
+
+.projekti3 h2 {
+	padding: 30px 0 0 0;
+}
+
+.projekti4 {
+	background-image: url("../img/projekti/projekti4-img.png");
+	height: 1000px;
+	position:relative; 
+}
+
+.projekti4-slike {
+	position: absolute;
+	top: 150px;
+}
+
+.projekti4-text {
+	position: absolute;
+	top: 150px;
+	right: 0;
+	width: 40%;
+	font-size: 160%;
+	word-wrap: break-word;
+	padding: 0;
+}
+
+.projekti4-text h1,
+.projekti4-text h4,
+.projekti4-text h5 {
+	margin-top: 0;
+}
+
+.rez-stan2 {
+	position: absolute;
+	top: 420px;
+	left: 0;
+}
+
+.brosura {
+	position: absolute;
+	top: 430px;
+	right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
